@@ -1,25 +1,43 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './header/header.js';
+import MainBody from './bodyContent/mainBody.js'
+import { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+
+  state = {
+    body: 0,
+  };
+
+  changeBodyHandler(type){
+    this.setState({
+      body: type,
+    })
+  }
+  
+
+  render(){
+    return (
+      <div className="App">
+  
+        <Header/>
+      
+  
+        <MainBody/>
+  
+  
+  
+  
+  
+  
+        <footer>
+          <a>Github</a>
+          <a>LinkedIn</a>
+        </footer>
+      </div>
+    );
+  }
 }
 
 export default App;
