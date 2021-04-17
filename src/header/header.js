@@ -1,15 +1,16 @@
 import './header.css';
+import {Link} from 'react-router-dom';
 
 const header = (props) =>{
 
     return (
-        <header>
+      <header>
         <div class = "left-section">
-          LEO
+          <Link to = "/" class = "decor">LW</Link>
         </div>
         <div class = "right-section">
-          <a>Project</a>
-          <a>Resume</a>
+          <Link to = "/projects" class = "decor">Project</Link>
+          <Link to = "/resume" class = "decor">Resume</Link>
         </div>
       </header>
     );

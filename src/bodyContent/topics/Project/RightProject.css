@@ -1,0 +1,45 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    margin: 30px 0px 70px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 1.5px solid rgba(0, 0, 0, 0.3);
+}
+
+.text-side{
+    flex: 5;
+    font-size: 22px;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-container{
+    display: flex;
+    font-size: 27px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.link-container a{
+    text-decoration: none;
+}
+
+
+.image-side{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-side img{
+    width: 432px;
+    height: 288px;
+}
