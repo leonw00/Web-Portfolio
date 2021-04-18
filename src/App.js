@@ -4,8 +4,8 @@ import MainBody from './bodyContent/mainBody.js'
 import { Component } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 // import images
-import LinkedIn from './assets/linkedin.svg'
-import Github from './assets/github.svg'
+import LinkedIn from './assets/logo/linkedin.svg'
+import Github from './assets/logo/github.svg'
 
 
 

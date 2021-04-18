@@ -3,14 +3,6 @@ import {motion} from 'framer-motion'
 import SplitText from '../../utils/SplitText.js'
 import HumanImage from '../../assets/humanPhoto.jpeg';
 
-const pageVariant = {
-    in: {
-        opacity: 1,
-    },
-    out: {
-        opacity: 0,
-    }
-}
 
 const hiAnimateTime = 0.5;
 

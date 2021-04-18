@@ -3,6 +3,7 @@ import {AnimatePresence} from 'framer-motion'
 import './mainBody.css';
 import Main from './topics/main.js';
 import Projects from './topics/projects.js';
+import Resume from './topics/resume.js';
 
 
 function MainBody(){
@@ -13,6 +14,7 @@ function MainBody(){
             <AnimatePresence exitBeforeEnter>
                 <Switch locaiton = {location}>
                     <Route path="/projects"><Projects/></Route>
+                    <Route exact path="/resume"><Resume/></Route>
                     <Route exact path="/"><Main/></Route>
                 </Switch>
             </AnimatePresence>
