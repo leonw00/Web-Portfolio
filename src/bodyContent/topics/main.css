@@ -3,25 +3,29 @@
     height: 100%;
     display: flex;
     flex-direction: row;
-    padding: 120px 0px;
+    padding: 80px 0px;
+    margin-bottom: 30px;
 }
 
-
 .left-content{
-    flex: 3;
-    font-size: 40px;
-    background-color: rebeccapurple;
+    flex: 2;
+    font-size: 35px;
+    padding: 0px 20px;
 }
 
 .left-content h2{
-    font-size: 84px;
+    font-size: 80px;
 }
 
-
 .right-content{
-    flex: 2;
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blueviolet;
+}
+
+.right-content img{
+    width: 200px;
+    height: 200px;
+    background-color: red;
 }
