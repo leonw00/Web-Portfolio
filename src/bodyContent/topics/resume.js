@@ -2,7 +2,7 @@ import './resume.css'
 import { Tooltip } from '@material-ui/core'
 // import images
 import Git from '../../assets/logo/git.png'
-import JavaScript from '../../assets/logo/javascript.jpg'
+import JavaScript from '../../assets/logo/javascript.png'
 import Python from '../../assets/logo/python.png'
 import Java from '../../assets/logo/java.png'
 import C from '../../assets/logo/c.png'
