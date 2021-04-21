@@ -11,6 +11,8 @@ import Mongodb from '../../assets/logo/mongodb.png'
 import Flutter from '../../assets/logo/flutter.png'
 import React from '../../assets/logo/react.png'
 import Dart from '../../assets/logo/dart.png'
+import Html from '../../assets/logo/html.png'
+import Firebase from '../../assets/logo/firebase.png'
 
 
 const resume = () => {
@@ -31,35 +33,41 @@ const resume = () => {
             <div class = "subject-container">
                 <h1>Technical Skills</h1>
                 <div class = "explanation">
-                    <Tooltip title = "Python" arrow>
-                        <img src = {Python} alt = 'logo'/>
+                    <Tooltip title = "Python" arrow placement = "top">
+                        <img src = {Python} alt = 'logo1'/>
                     </Tooltip>
-                    <Tooltip title = "Java" arrow>
-                        <img src = {Java} alt = 'logo' class = "specialImage"/>
+                    <Tooltip title = "Java" arrow placement = "top">
+                        <img src = {Java} alt = 'logo2'/>
                     </Tooltip>
-                    <Tooltip title = "JavaScript" arrow>
-                        <img src = {JavaScript} alt = 'logo'/>
+                    <Tooltip title = "JavaScript" arrow placement = "top">
+                        <img src = {JavaScript} alt = 'logo3'/>
                     </Tooltip>
-                    <Tooltip title = "C" arrow>
-                        <img src = {C} alt = 'logo'/>
+                    <Tooltip title = "C" arrow placement = "top">
+                        <img src = {C} alt = 'logo4'/>
                     </Tooltip>
-                    <Tooltip title = "Git" arrow>
-                        <img src = {Git} alt = 'logo'/>
+                    <Tooltip title = "Git" arrow placement = "top">
+                        <img src = {Git} alt = 'logo5'/>
                     </Tooltip>
-                    <Tooltip title = "Django" arrow>
-                        <img src = {Django} alt = 'logo'/>
+                    <Tooltip title = "Django" arrow placement = "top">
+                        <img src = {Django} alt = 'logo6'/>
                     </Tooltip>
-                    <Tooltip title = "React" arrow>
-                        <img src = {React} alt = 'logo'/>
+                    <Tooltip title = "React" arrow placement = "top">
+                        <img src = {React} alt = 'logo7'/>
                     </Tooltip>
-                    <Tooltip title = "Flutter" arrow>
-                        <img src = {Flutter} alt = 'logo'/>
+                    <Tooltip title = "Flutter" arrow placement = "top">
+                        <img src = {Flutter} alt = 'logo8'/>
                     </Tooltip>
-                    <Tooltip title = "MongoDB" arrow>
-                        <img src = {Mongodb} alt = 'logo'/>
+                    <Tooltip title = "MongoDB" arrow placement = "top">
+                        <img src = {Mongodb} alt = 'logo9'/>
                     </Tooltip>
-                    <Tooltip title = "Dart" arrow>
-                        <img src = {Dart} alt = 'logo'/>
+                    <Tooltip title = "Dart" arrow placement = "top">
+                        <img src = {Dart} alt = 'logo10'/>
+                    </Tooltip>
+                    <Tooltip title = "HTML" arrow placement = "top">
+                        <img src = {Html} alt = 'logo11'/>
+                    </Tooltip>
+                    <Tooltip title = "Firebase" arrow placement = "top">
+                        <img src = {Firebase} alt = 'logo12'/>
                     </Tooltip>
 
                     <h4> </h4>

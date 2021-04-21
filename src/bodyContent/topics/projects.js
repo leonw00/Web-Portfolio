@@ -4,6 +4,7 @@ import Project from './Project/project.js';
 import SecretStoriesImage from '../../assets/mockSS.png';
 import MoodDailyImage from '../../assets/mockMD.png';
 import PortfolioImage from '../../assets/mockP.png';
+import ReversibleImage from '../../assets/mockRL.png';
 
 
 function projects(){
@@ -41,6 +42,18 @@ function projects(){
                     This is a web portfolio about me. It is the second version of my portfolio, which is 
                     build with React as its core and Framer Motion for animation. This portfolio is an
                     improvement from my previous one which is a static portfolio built in html and css.
+            </Project>
+
+            <Project  
+                rightImage = {false}
+                image = {ReversibleImage}
+                demoLink = ""
+                repoLink = "https://github.com/leonw00/Daily-Mood-App">
+                    An android application that allows users to create flashcards to study from. This is 
+                    a group project for my software engineer course where the project is built in Android Studio. 
+                    By doing this project, I learn about the Agile Development Cycle, the importance of unit tests, 
+                    integrations tests and system tests, cooperating and communicating with my group members to work 
+                    efficiently and effectively and have developed a sense of estimating feature management.
             </Project>
 
         </div>

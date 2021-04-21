@@ -6,6 +6,8 @@ import HumanImage from '../../assets/humanPhoto.jpeg';
 
 const hiAnimateTime = 0.5;
 
+
+
 function main(){
     return(
         <div class = "parent-main">
@@ -36,12 +38,12 @@ function main(){
                 <motion.img 
                 animate = {{
                     opacity: [0, 1, 1],
-                    scale: [1, 1.5, 1.5, 1.3],
-                    rotate: [0, 0, 360, 360],
-                    borderRadius: ["20%", "40%", "50%",],
+                    scale: [0.5, 1.7, 1.3, 1.3],
+                    rotate: [0, 30, 0, 0],
+                    borderRadius: ["40%", "50%", "50%",],
                 }} 
                 transition = {{
-                    duration: 1, 
+                    duration: 0.8, 
                     delay: 3,
                 }}
                 src = {HumanImage} alt = "#"/>
