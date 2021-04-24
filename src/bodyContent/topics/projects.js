@@ -37,7 +37,7 @@ function projects(){
             <Project  
                 rightImage = {true}
                 image = {PortfolioImage}
-                demoLink = "https://master.dugjeiaj5eg4v.amplifyapp.com/"
+                demoLink = "https://www.leonardow.com"
                 repoLink = "https://github.com/leonw00/Web-Portfolio">
                     This is a web portfolio about me. It is the second version of my portfolio, which is 
                     build with React as its core and Framer Motion for animation. This portfolio is an
