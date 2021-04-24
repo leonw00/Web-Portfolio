@@ -2,7 +2,7 @@
 
 This web portfolio is the second version of my online portfolio. The portfolio explains a lot about me and what I do in the field of Computer Science. The portfolio has a significant difference from my [first version](https://leonw00.github.io/), which is a static portfolio. There's much more to this portfolio such as the layout responsive, animations, transition, and more.
 
-Go to the **[Demo](https://master.dugjeiaj5eg4v.amplifyapp.com)**
+Go to the **[Demo](https://www.leonardow.com)**
 
 # Technicalities
 
