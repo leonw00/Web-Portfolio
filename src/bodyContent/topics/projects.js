@@ -24,7 +24,7 @@ function projects(){
             <Project  
                 rightImage = {false}
                 image = {MoodDailyImage}
-                demoLink = ""
+                demoLink = "https://github.com/leonw00/Daily-Mood-App"
                 repoLink = "https://github.com/leonw00/Daily-Mood-App">
                     A mobile application where users are able to record their feelings and look
                     back upon them on a later date. This application is made in flutter which makes 
@@ -47,8 +47,8 @@ function projects(){
             <Project  
                 rightImage = {false}
                 image = {ReversibleImage}
-                demoLink = ""
-                repoLink = "https://github.com/leonw00/Daily-Mood-App">
+                demoLink = "https://github.com/leonw00/COMP3350-ReversibleLearning/blob/main/README.md"
+                repoLink = "https://github.com/leonw00/COMP3350-ReversibleLearning">
                     An android application that allows users to create flashcards to study from. This is 
                     a group project for my software engineer course where the project is built in Android Studio. 
                     By doing this project, I learn about the Agile Development Cycle, the importance of unit tests, 
