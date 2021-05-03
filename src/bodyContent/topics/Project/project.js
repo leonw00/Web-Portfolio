@@ -1,4 +1,5 @@
 import './project.css'
+import { Tooltip } from '@material-ui/core'
 
 
 const project = (props) => {
@@ -30,7 +31,10 @@ const project = (props) => {
                 <div class = "text-side">
                     {props.children}
                     <div class = "link-container">
-                        <a href = {props.demoLink}>DEMO</a>
+                        {props.demoLink === "" ? <Tooltip title = "demo is still processed for the app publication in app store">
+                            <a href = {props.demoLink}>DEMO</a>
+                        </Tooltip> : 
+                        <a href = {props.demoLink}>DEMO</a>}
                         <a href = {props.repoLink}>REPO</a>
                     </div>
                 </div>

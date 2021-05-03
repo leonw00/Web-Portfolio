@@ -24,7 +24,7 @@ function projects(){
             <Project  
                 rightImage = {false}
                 image = {MoodDailyImage}
-                demoLink = "https://github.com/leonw00/Daily-Mood-App"
+                demoLink = ""
                 repoLink = "https://github.com/leonw00/Daily-Mood-App">
                     A mobile application where users are able to record their feelings and look
                     back upon them on a later date. This application is made in flutter which makes 
