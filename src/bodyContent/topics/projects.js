@@ -47,7 +47,7 @@ function projects(){
             <Project  
                 rightImage = {false}
                 image = {ReversibleImage}
-                demoLink = "https://github.com/leonw00/COMP3350-ReversibleLearning/blob/main/README.md"
+                demoLink = "https://rawcdn.githack.com/leonw00/COMP3350-ReversibleLearning/be74a7c308c645dd2a7f062a9ef6d4a6d9ef462c/index.html"
                 repoLink = "https://github.com/leonw00/COMP3350-ReversibleLearning">
                     An android application that allows users to create flashcards to study from. This is 
                     a group project for my software engineer course where the project is built in Android Studio. 
